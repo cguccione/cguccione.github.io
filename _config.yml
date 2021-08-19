@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Cancer Microibome ~ Mathematical Biology ~ Bioinformatics ~ Oncology
+tagline:              Cancer Microibome <br /> Mathematical Biology <br /> Bioinformatics <br /> Oncology
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,12 +49,11 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             About Me
-    url:               /example/
+    #url:               /example/
   - title:             Publications
-    url:               /docs/
+    #url:               /docs/
   - title:             CV
-    url:               /about/
+    #url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -397,6 +396,8 @@ sass:
 
 jekyll_compose:
   default_front_matter:
+
+    '''
     drafts:
       layout: post
       description: > 
@@ -421,3 +422,4 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+    '''
