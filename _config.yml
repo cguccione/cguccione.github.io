@@ -42,7 +42,7 @@ logo:                  /assets/img/caitlinRock.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
+  name:                <firstnam e> <lastname>
   email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -50,10 +50,11 @@ author:
 # Add links to the sidebar.
 menu:
     #url:               /example/
-  - title:             Publications
-    #url:               /docs/
   - title:             CV
-    #url:               /about/
+    url:               /cv/
+  - title:             Publications
+    url:               /about/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -362,7 +363,7 @@ plugins:
 #   name:                <firstname> <lastname>
 #   links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
+#     - https://github.com/cguccione
 
 
 # Plugin Configs
