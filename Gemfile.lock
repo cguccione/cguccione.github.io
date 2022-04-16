@@ -93,12 +93,14 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   universal-darwin-20
 
 DEPENDENCIES
   duktape
+  jekyll (~> 4.1)
   jekyll-compose
   jekyll-default-layout
   jekyll-feed
@@ -114,6 +116,7 @@ DEPENDENCIES
   jekyll-theme-hydejack (~> 9.1)
   jekyll-titles-from-headings
   kramdown-math-katex
+  webrick
 
 BUNDLED WITH
    2.2.26

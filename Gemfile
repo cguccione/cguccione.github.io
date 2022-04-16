@@ -8,6 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem "jekyll", "~> 4.1"
+
 gem "jekyll-theme-hydejack", "~> 9.1"
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
@@ -26,6 +28,9 @@ gem "kramdown-math-katex"
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
 gem "duktape"
+
+# Fixes `jekyll serve` in ruby 3
+gem "webrick"
 
 group :jekyll_plugins do
   gem "jekyll-default-layout"
