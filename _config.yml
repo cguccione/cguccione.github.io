@@ -81,7 +81,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 ##NOTE!! theme: works locally, remote theme: works non-locally
 
-theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
