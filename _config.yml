@@ -53,7 +53,7 @@ menu:
   - title:             CV
     url:               /cv/
   - title:             Publications
-    url:               /about/
+    url:               /cv/#publications
 
 
 # Add links to the footer.
@@ -79,8 +79,9 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
+##NOTE!! theme: works locally, remote theme: works non-locally
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
@@ -292,15 +293,15 @@ hydejack:
 collections:
   featured_categories:
     permalink:         /:name/
-    output:            true
+    output:            false
 
   featured_tags:
     permalink:         /tag-:name/
-    output:            true
+    output:            false
 
   projects:
     permalink:         /projects/:path/
-    output:            true
+    output:            false
 
 
 # File inclusion/exclusion
