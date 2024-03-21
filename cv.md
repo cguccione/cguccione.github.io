@@ -37,6 +37,7 @@ expertise to tackle complex biological challenges, particularly in the field of 
 
 ### Micro MBA 
 **Rady School of Management, University of California, San Diego**
+*May 2023 - September 2023*
 
 ## Technical Skills
 Python ० Jupyter Lab ० Linux Command Line ० Github ० R ० RStudio ० Slurm Workload Manager ०
