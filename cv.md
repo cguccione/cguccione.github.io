@@ -6,8 +6,7 @@ title:  CV
 # Caitlin Guccione
 ## Bioinformatics Ph.D. Student   
 
-> [cguccion@ucsd.edu](mailto:cguccion@ucsd.edu)  
-> (630) 336-3386  
+> [cguccion@ucsd.edu](mailto:cguccion@ucsd.edu)   
 
 **Objective**
 I am a Ph.D. graduate student with a projected summer 2024 graduation looking for a computational biology
